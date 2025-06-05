@@ -278,6 +278,7 @@ h2{
       font-size: 12px;
       padding: 5px 10px;
   }
+ 
   .box {
     height: 150px;
 }
@@ -297,10 +298,14 @@ h2{
 }
 
 .box2 p {
-  font-size: 10px;
+  font-size: 15px;
 }
 .clm {
-  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-right: 50px;
+  font-size:20px;
   padding: 3px;
   margin-left: 40px;
   background-color: #86bbd0;
@@ -323,5 +328,36 @@ h2{
   white-space: nowrap;
  
 }
+h2 {
+  font-size: 25px;
+  margin: 15px 0px;
+}
+.slider-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 400px;
+  padding: 1px;
+        
+}
+h3 {
+ 
+  padding-right: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+ 
+  
+}
+.text{
+ text-align: left;
 
+  font-size: 12px;
+  
+}
+.slider{
+
+  max-width: 100%;
+        height: auto;
+}
   }
